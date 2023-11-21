@@ -1,0 +1,90 @@
+body {
+    background-color: var(--cream-bg, #F2EAE2);
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 800px;
+    padding: 175px 420px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:var(--Pure-White, #FFF);
+    height: 450px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.bouteille {
+    width: 337.694px;
+    height: 450px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.centre {
+    display: flex;
+    width: 600px;
+    height: 450px;
+}
+h1 {
+    font-family: Fraunces;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 100% */
+    margin-bottom: 0%;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 5px;
+    color: var(--Aurometal-Saurus, #6C7289);
+    margin-bottom: 0%;
+}
+.paraf {
+    color: var(--Aurometal-Saurus, #6C7289);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px; /* 164.286% */
+    margin-bottom: 0%
+}
+.price {
+    display: flex;
+    flex-direction: row;
+}
+.barre {
+    color: var(--Aurometal-Saurus, #6C7289); 
+    text-decoration: line-through;
+    margin: 29px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.nnbarre {
+    color: var(--Deep-Aquamarine, #3D8168);
+    font-family: Fraunces;
+    font-size: 32px;
+    padding-right: 19px;
+    margin-top: 29px;
+}
+button {
+    width: 236px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--Deep-Aquamarine, #3D8168);
+    font-family: Montserrat;    
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--Pure-White, #FFF);
+    margin-bottom: 32px;
+}
